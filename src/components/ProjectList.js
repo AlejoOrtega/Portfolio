@@ -1,7 +1,6 @@
 import React from 'react';
-import projectCourses from '../images/project-courses.jpg';
-import projectWomen from '../images/project-women-tech.jpg';
-import projectWire from '../images/project-wire-ipsum.jpg';
+import projectFlappy from '../images/flappy-sinatra.png';
+import projectCork from '../images/cork-bored.png';
 
 const ProjectList = () => {
     return ( 
@@ -12,28 +11,28 @@ const ProjectList = () => {
 
                 {/* <!-- Project 1 --> */}
                 <section className="project-item">
-                    <img src={projectCourses} alt="Lynda & LinkedIn Learning course list"/>
-                    <h3>Lynda / LinkedIn Learning Courses</h3>
-                    <p>Developed content and instruction for various CSS and front-end focused web development courses including CSS Essential Training, Getting Your Website Online, Design Systems & Architectures and more.</p>
-                    <a className="btn" href="https://www.linkedin.com/learning/instructors/christina-truong?u=2125562" target="_blank">LinkedIn Learning</a>
-                    <a className="btn" href="https://www.lynda.com/Christina-Truong/7842227-1.html">Lynda.com</a>
+                    <img src={projectFlappy} alt="Flappy Bird Sinatra"/>
+                    <h3>Flappy Bird Sinatra</h3>
+                    <p>A Full Stack Project, work with React and Ruby. MVC pattern implemented using sinatra to connect Front and Back ends and Active-Record to handle the MC of the project. <br/> <br/>Soon will be available Online! </p>
+                    <a className="btn" href="https://github.com/AlejoOrtega/flappy-bird-client">Client Repo</a>
+                    <a className="btn" href="https://github.com/AlejoOrtega/flappy-bird-server">Server Repo</a>
                 </section>
 
                 {/* <!-- Project 2 --> */}
                 <section className="project-item">
-                    <img src={projectWomen} alt="Women and Tech website"/>
-                    <h3>Women&&Tech</h3>
-                    <p>Women&&Tech was launched in 2012 to feature interviews with different women working in the tech industry. I became familiar with them when I was invited to be one of the interviewees! A few years later, I joined the team and helped with the relaunch of the site as the front-end architect.</p>
-                    <a className="btn" href="http://christinatruong.com/projects/women-and-tech-redesign.html" target="_blank">View the case study</a>
+                    <img src={projectCork} alt="Cork-Bored"/>
+                    <h3>Cork-Bored</h3>
+                    <p>Full React project with Redux & Router 6 implemented. A personal space in the World Wide Web to publish memories and thoughts and have the possibility to come back and re live them any time you feel! A website that is for you only!</p>
+                    <a className="btn" href="https://github.com/AlejoOrtega/corkbored">Repo of Cork-Bored</a>
                 </section>
 
                 {/* <!-- Project 3 --> */}
-                <section className="project-item">
+                {/* <section className="project-item">
                     <img src={projectWire} alt="The Wire Ipsum website"/>
                     <h3>The Wire Ipsum</h3>
                     <p>After coming back from teaching a JavaScript workshop, I felt inspired to create something just for fun. I realized that of all the content/lorem ipsum generators available, there was nothing for HBO’s The Wire fans. I searched for <a href="http://thewireipsum.com" target="_blank">thewireipsum.com</a> domain and it was available! Generate some content for your projects today.</p>
                     <a className="btn" href="http://thewireipsum.com" target="_blank">View live site</a>
-                </section>
+                </section> */}
             </div>
         </section>
      );
